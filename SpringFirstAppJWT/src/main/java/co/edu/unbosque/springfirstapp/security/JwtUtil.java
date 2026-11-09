@@ -22,7 +22,7 @@ import org.springframework.stereotype.Component;
 public class JwtUtil {
 
   /** Tiempo de validez del token JWT en milisegundos (24 horas). */
-  private static final long JWT_TOKEN_VALIDITY = 20 * 60 * 60 * 1000; // 24 horas
+  private static final long JWT_TOKEN_VALIDITY = 26 * 60 * 60 * 1000; // 24 horas
 
   /**
    * Clave secreta utilizada para firmar los tokens JWT. Se puede configurar en las propiedades de
